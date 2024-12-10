@@ -1,0 +1,105 @@
+/* General Container Styling */
+.product-detail-container {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Title Styling */
+.product-detail-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Content Styling: Flexbox Layout */
+.product-detail-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Product Image Styling */
+.product-image-container {
+    flex: 1;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Info Styling */
+.product-info {
+    flex: 1;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling for Product */
+.product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Product Price and Other Info */
+.product-price,
+.product-rating,
+.product-discount {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.product-rating {
+    color: #ffbc00;
+}
+
+.product-discount {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/* Product Description */
+.product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-detail-content {
+        flex-direction: column;
+    }
+
+    .product-image-container {
+        max-width: 100%;
+    }
+
+    .product-info {
+        max-width: 100%;
+    }
+}
