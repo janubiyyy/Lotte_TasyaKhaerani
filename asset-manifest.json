@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Lotte_TasyaKhaerani/static/css/main.a21446ed.css",
+    "main.js": "/Lotte_TasyaKhaerani/static/js/main.29b7e690.js",
+    "static/js/488.b5f9e425.chunk.js": "/Lotte_TasyaKhaerani/static/js/488.b5f9e425.chunk.js",
+    "index.html": "/Lotte_TasyaKhaerani/index.html",
+    "main.a21446ed.css.map": "/Lotte_TasyaKhaerani/static/css/main.a21446ed.css.map",
+    "main.29b7e690.js.map": "/Lotte_TasyaKhaerani/static/js/main.29b7e690.js.map",
+    "488.b5f9e425.chunk.js.map": "/Lotte_TasyaKhaerani/static/js/488.b5f9e425.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a21446ed.css",
+    "static/js/main.29b7e690.js"
+  ]
+}
